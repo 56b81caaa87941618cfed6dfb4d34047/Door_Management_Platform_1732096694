@@ -381,5 +381,13 @@
         "source": "base_assistant",
         "content": "I've corrected the calculation logic in the header component. Now, it will properly handle the operations based on the selected door color: adding 100 for red, multiplying with 120 for blue, using the maximum with 110 for green, and subtracting with 90 for yellow. If you need further adjustments, just let me know!",
         "metadata": {}
+    },
+    {
+        "id": "e588f7e6-72b2-4608-a1b8-678763ae74e5",
+        "timestamp": "2024-11-20T10:43:46.041571Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I want you to add an image of a banana in the background",
+        "metadata": {}
     }
 ]
