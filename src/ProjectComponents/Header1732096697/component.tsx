@@ -3,10 +3,14 @@ import React, { useState } from 'react';
 const Header: React.FC = () => {
   const [doorColor, setDoorColor] = useState<string>('');
 
+  const getTitle = () => {
+    return doorColor ? `DoorMaster - ${doorColor.charAt(0).toUpperCase() + doorColor.slice(1)} Door` : 'DoorMaster';
+  };
+
   return (
     <header className="bg-blue-500 text-white p-4 w-full h-full">
       <div className="container mx-auto flex justify-between items-center h-full">
-        <div className="text-2xl font-bold">DoorMaster</div>
+        <div className="text-2xl font-bold">{getTitle()}</div>
         
         <form className="flex items-center">
           <label htmlFor="doorColor" className="mr-2">
