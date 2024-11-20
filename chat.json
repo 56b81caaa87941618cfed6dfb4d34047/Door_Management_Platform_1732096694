@@ -120,5 +120,13 @@
         "source": "base_assistant",
         "content": "I've updated the header component so that the title will change based on the selected door color. It will now display \"DoorMaster - [Selected Color] Door\" when a color is chosen. If you have any more adjustments or features in mind, feel free to share!",
         "metadata": {}
+    },
+    {
+        "id": "bac9f40a-805a-493b-946f-dc2c9d556ffe",
+        "timestamp": "2024-11-20T10:18:26.063248Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I want to generate a calculator that when red color is selected, adds two numbers, when blue and green multiplies and when yellow substracts",
+        "metadata": {}
     }
 ]
