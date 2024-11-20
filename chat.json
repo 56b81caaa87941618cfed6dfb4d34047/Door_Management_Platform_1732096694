@@ -57,5 +57,15 @@
         "source": "base_assistant",
         "content": "I've changed the footer color to green. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "213cb450-3bde-4f3a-b6b2-eebfd57c6b55",
+        "timestamp": "2024-11-20T10:53:12.542431Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I want you to put an image of an apple in the backgroun",
+        "metadata": {
+            "component_id": "Footer1732096697"
+        }
     }
 ]
