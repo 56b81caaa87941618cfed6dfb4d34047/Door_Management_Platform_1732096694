@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-green-800 text-white p-8 w-full h-full"> {/* Full width and height */}
+    <footer className="bg-green-800 text-white p-8 w-full h-full relative"> {/* Full width and height */}
+      <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: 'url(https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Door_Management_Platform_1732096694/main/src/assets/images/b724657521fc490bb063551b8e6946f3.jpeg)'}}></div>
+      <div className="container mx-auto h-full relative z-10">
       <div className="container mx-auto h-full">
         <div className="flex flex-wrap justify-between h-full">
           
@@ -23,6 +25,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+    </footer>
     </footer>
   );
 };
