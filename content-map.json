@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "DoorMaster",
+        "HERO_HEADING_TEXT": "Open the Door to Endless Possibilities",
+        "HERO_SUBHEADING_TEXT": "Discover our extensive collection of high-quality doors for every style and budget",
+        "FOOTER_TEXT": "\u00a9 2023 DoorMaster. Elevating homes, one door at a time."
+    }
+}
