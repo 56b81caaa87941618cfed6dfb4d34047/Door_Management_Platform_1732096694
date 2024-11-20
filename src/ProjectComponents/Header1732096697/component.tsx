@@ -13,21 +13,20 @@ const Header: React.FC = () => {
 
 
   const handleCalculation = () => {
-    const colorValue = doorColor === 'red' ? 100 : doorColor === 'blue' ? 120 : doorColor === 'green' ? 110 : doorColor === 'yellow' ? 90 : 0;
     let calculatedResult: number;
     
     switch (doorColor) {
       case 'red':
-        calculatedResult = number1 + number2 + colorValue;
+        calculatedResult = number1 + number2 + 100;
         break;
       case 'blue':
-        calculatedResult = number1 * number2 + colorValue;
+        calculatedResult = number1 * number2 + 120;
         break;
       case 'green':
-        calculatedResult = Math.max(number1, number2) + colorValue;
+        calculatedResult = Math.max(number1, number2) + 110;
         break;
       case 'yellow':
-        calculatedResult = Math.abs(number1 - number2) + colorValue;
+        calculatedResult = Math.abs(number1 - number2) + 90;
         break;
       default:
         calculatedResult = number1 + number2;
@@ -35,6 +34,7 @@ const Header: React.FC = () => {
     
     setResult(calculatedResult);
   };
+
 
 
 
