@@ -128,5 +128,13 @@
         "source": "web_client",
         "content": "I want to generate a calculator that when red color is selected, adds two numbers, when blue and green multiplies and when yellow substracts",
         "metadata": {}
+    },
+    {
+        "id": "4ca021d3-37e2-40f8-949c-640a14f71c49",
+        "timestamp": "2024-11-20T10:18:28.741682Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Please go to the \"Components\" tab and drag and drop a calculator component into the canvas. Once you've done that, let me know so I can assist you in making it work with the color selections!",
+        "metadata": {}
     }
 ]
