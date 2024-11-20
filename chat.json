@@ -22,5 +22,13 @@
         "source": "base_assistant",
         "content": "Please go to the \"Components\" tab in the MakeInfinite studio and drag and drop a forms component into the canvas. Let me know when you've done that so I can assist you further!",
         "metadata": {}
+    },
+    {
+        "id": "958d7809-11ba-4db0-910a-7f1b36aab1c2",
+        "timestamp": "2024-11-20T10:07:12.265281Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "do it in the header",
+        "metadata": {}
     }
 ]
