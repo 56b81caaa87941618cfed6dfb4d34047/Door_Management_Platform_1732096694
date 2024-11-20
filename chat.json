@@ -167,5 +167,15 @@
         "source": "tool:EditFrontendComponent",
         "content": "Okay, I'm updating the header component to include calculator functionality based on the selected door color.",
         "metadata": {}
+    },
+    {
+        "id": "a724b461-c845-45ae-98c4-4ddb27f2dfe9",
+        "timestamp": "2024-11-20T10:19:29.044565Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "diff --git a/src/ProjectComponents/Header1732096697/component.tsx b/src/ProjectComponents/Header1732096697/component.tsx\nindex 1c68461..f248132 100644\n--- a/src/ProjectComponents/Header1732096697/component.tsx\n+++ b/src/ProjectComponents/Header1732096697/component.tsx\n@@ -1,12 +1,38 @@\n-import React, { useState } from 'react';\n+import React, { useState, useEffect } from 'react';\n \n const Header: React.FC = () => {\n   const [doorColor, setDoorColor] = useState<string>('');\n+  const [price, setPrice] = useState<number>(0);\n+\n \n   const getTitle = () => {\n     return doorColor ? `DoorMaster - ${doorColor.charAt(0).toUpperCase() + doorColor.slice(1)} Door` : 'DoorMaster';\n   };\n \n+  useEffect(() => {\n+    calculatePrice();\n+  }, [doorColor]);\n+\n+  const calculatePrice = () => {\n+    switch (doorColor) {\n+      case 'red':\n+        setPrice(100);\n+        break;\n+      case 'blue':\n+        setPrice(120);\n+        break;\n+      case 'green':\n+        setPrice(110);\n+        break;\n+      case 'yellow':\n+        setPrice(90);\n+        break;\n+      default:\n+        setPrice(0);\n+    }\n+  };\n+\n+\n   return (\n     <header className=\"bg-blue-500 text-white p-4 w-full h-full\">\n       <div className=\"container mx-auto flex justify-between items-center h-full\">\n@@ -30,6 +56,12 @@ const Header: React.FC = () => {\n             <option value=\"yellow\">Yellow</option>\n           </select>\n         </form>\n+\n+        <div className=\"flex items-center ml-4\">\n+          <i className='bx bx-calculator mr-2 text-xl'></i>\n+          <span className=\"font-bold\">Price: ${price}</span>\n+        </div>\n+      </div>\n       </div>\n     </header>\n   );\n",
+        "metadata": {
+            "tool_call_id": "call_hsmC3XtaoOqKhZTsEAVwnsgs"
+        }
     }
 ]
