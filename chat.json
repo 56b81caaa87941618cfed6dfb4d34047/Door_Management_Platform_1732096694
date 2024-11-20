@@ -14,5 +14,13 @@
         "source": "web_client",
         "content": "Want to add a forms to choose you preferer color of door",
         "metadata": {}
+    },
+    {
+        "id": "8850e6c9-8aa6-461b-9bb2-4f4acbb665db",
+        "timestamp": "2024-11-20T10:04:53.717231Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Please go to the \"Components\" tab in the MakeInfinite studio and drag and drop a forms component into the canvas. Let me know when you've done that so I can assist you further!",
+        "metadata": {}
     }
 ]
