@@ -71,5 +71,13 @@
         "source": "base_assistant",
         "content": "I've added a form in the header component for selecting the preferred door color. You can now see a dropdown menu with color options. If you need any further modifications or additional features, just let me know!",
         "metadata": {}
+    },
+    {
+        "id": "20431812-09e0-42ed-85d4-e953f123df67",
+        "timestamp": "2024-11-20T10:09:03.721145Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "when the different options are selected, the title should change to those",
+        "metadata": {}
     }
 ]
