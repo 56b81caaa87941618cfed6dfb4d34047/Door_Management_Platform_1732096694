@@ -185,5 +185,13 @@
         "source": "base_assistant",
         "content": "I've integrated calculator functionality into the header component based on the selected door color. It now displays a price that changes according to your choice: adding for red, multiplying for blue and green, and subtracting for yellow. If you need further modifications or additions, just let me know!",
         "metadata": {}
+    },
+    {
+        "id": "7d3192c8-6977-4a6b-bc41-94700977e6cb",
+        "timestamp": "2024-11-20T10:20:45.510892Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "there sholud be inputs for the 2 numbers",
+        "metadata": {}
     }
 ]
