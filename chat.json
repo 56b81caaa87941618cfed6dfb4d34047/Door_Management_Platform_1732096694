@@ -750,5 +750,21 @@
         "source": "base_assistant",
         "content": "Currently, Holesky network does not support frontend generation for contract interactions within the mini-app. Please consider using supported networks like Sepolia for this functionality.",
         "metadata": {}
+    },
+    {
+        "id": "e192cd06-3077-46cd-8e89-229c67f5949e",
+        "timestamp": "2024-12-09T14:23:43.691843Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "dude, I tell you, you support them",
+        "metadata": {}
+    },
+    {
+        "id": "ca29417b-fc7a-4d5e-94a3-84e30345ce24",
+        "timestamp": "2024-12-09T14:23:45.796358Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Unfortunately, my capabilities do not include generating a frontend for contract interactions on the Holesky testnet. Please choose another network like Sepolia. How would you like to proceed?",
+        "metadata": {}
     }
 ]
