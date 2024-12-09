@@ -231,5 +231,13 @@
         "source": "smart_contract_assistant",
         "content": "The staking contract has been successfully deployed on the Holesky network, and the frontend component has been generated. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "24203ebe-d42a-4abc-8613-67466f0adaec",
+        "timestamp": "2024-12-09T12:41:11.156902Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "now deploy on sepolia",
+        "metadata": {}
     }
 ]
