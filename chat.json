@@ -1217,5 +1217,15 @@
         "source": "smart_contract_assistant",
         "content": "The Hero component has been successfully updated to interact with the deposit contract on the Holesky network. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "01d42e5f-47e7-4259-8062-749d8d3e4dbf",
+        "timestamp": "2024-12-09T15:23:14.295642Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "and now the smart contract with address 0x9477e53c4b8a053D45cB588A543Ea6870F79d023 on POLYGON",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
     }
 ]
