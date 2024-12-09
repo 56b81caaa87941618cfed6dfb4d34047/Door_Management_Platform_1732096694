@@ -826,5 +826,13 @@
         "source": "web_client",
         "content": "the sol contract is /var/folders/zn/j9t3nfj12410s5fwfb3n8ltc0000gn/T/tmpyi1rxo2u/src/contracts/MiningContract1732096699/deployment.sepolia.json",
         "metadata": {}
+    },
+    {
+        "id": "3951843b-a576-4539-b912-c564fa837cdf",
+        "timestamp": "2024-12-09T15:07:41.592259Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "As Holesky network currently does not support generating frontend components for interactions within the mini-app, I am unable to proceed with your request.\n\nWould you like to switch to Sepolia or any other supported network to generate the frontend?",
+        "metadata": {}
     }
 ]
