@@ -977,5 +977,15 @@
         "source": "smart_contract_assistant",
         "content": "The deposit contract has been successfully deployed on the Sepolia network, and the frontend component has been generated. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "78cbcb75-528a-46f0-859a-d6642af46dea",
+        "timestamp": "2024-12-09T15:18:34.320977Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy it on holesky",
+        "metadata": {
+            "component_id": "Footer1732096697"
+        }
     }
 ]
