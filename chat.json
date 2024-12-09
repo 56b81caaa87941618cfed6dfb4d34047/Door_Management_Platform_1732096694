@@ -404,5 +404,15 @@
         "source": "base_assistant",
         "content": "Could you please specify the network for the smart contract with address `0xf0c37C7Ba3A42da6Ee06EEbE7A7e4809cfF7974F`?",
         "metadata": {}
+    },
+    {
+        "id": "495905ec-6dcb-4dcc-a596-3b6030a468e3",
+        "timestamp": "2024-12-09T12:52:57.023363Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "holesky",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
     }
 ]
