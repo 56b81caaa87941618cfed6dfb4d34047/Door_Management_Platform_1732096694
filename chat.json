@@ -516,5 +516,13 @@
         "source": "smart_contract_assistant",
         "content": "I've generated the mining smart contract. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "d57ba0aa-6e8c-44d0-9baf-880f730dd520",
+        "timestamp": "2024-12-09T13:00:14.482425Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy to holesky the staking contract",
+        "metadata": {}
     }
 ]
