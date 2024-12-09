@@ -108,5 +108,13 @@
         "source": "base_assistant",
         "content": "I've added a background image of a realistic apple to the footer. Anything else you\u2019d like to do?",
         "metadata": {}
+    },
+    {
+        "id": "6281b4a6-dc64-486b-aafb-e4df3a9d5729",
+        "timestamp": "2024-12-09T12:37:40.359269Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a staking smart contract",
+        "metadata": {}
     }
 ]
