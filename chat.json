@@ -272,5 +272,13 @@
         "metadata": {
             "tool_call_id": "call_PQsQ0V9BcDPn0wKqmCmGB1iU"
         }
+    },
+    {
+        "id": "e9347d86-1a15-4187-92e0-9f5bb2d21f6d",
+        "timestamp": "2024-12-09T12:41:56.128021Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking contract has been successfully deployed on the Sepolia network. What would you like to do next?",
+        "metadata": {}
     }
 ]
