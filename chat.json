@@ -1140,5 +1140,13 @@
         "metadata": {
             "component_id": "Hero1732096697"
         }
+    },
+    {
+        "id": "241875d0-31d4-4cf3-81c4-104b4a67e2b1",
+        "timestamp": "2024-12-09T15:22:02.532416Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "Currently, Polygon is not supported for generating frontend components for smart contract interactions within the mini-app. Please choose another supported network like Sepolia or Holesky. How would you like to proceed?",
+        "metadata": {}
     }
 ]
