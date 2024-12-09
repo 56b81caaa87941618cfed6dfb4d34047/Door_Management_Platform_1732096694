@@ -414,5 +414,13 @@
         "metadata": {
             "component_id": "Hero1732096697"
         }
+    },
+    {
+        "id": "1b80ad9f-2e70-4b59-b9e4-02a73e61587b",
+        "timestamp": "2024-12-09T12:52:59.072354Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Currently, Holesky network deployment and interaction are not supported for frontend generation. Please choose a different supported network like Sepolia. How would you like to proceed?",
+        "metadata": {}
     }
 ]
