@@ -734,5 +734,13 @@
         "source": "base_assistant",
         "content": "Would you like to generate the frontend for this contract on the Sepolia network instead?",
         "metadata": {}
+    },
+    {
+        "id": "a9a175a1-c909-4cea-a3ff-ef50f9f13f24",
+        "timestamp": "2024-12-09T14:18:32.750272Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "no, on holesky",
+        "metadata": {}
     }
 ]
