@@ -842,5 +842,13 @@
         "source": "web_client",
         "content": "no is MiningContract alonw, my bad",
         "metadata": {}
+    },
+    {
+        "id": "a3fd2407-86e5-46fe-a19a-6e4e3a2b519a",
+        "timestamp": "2024-12-09T15:08:04.532718Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Alright, let's generate a frontend for the `MiningContract` on Sepolia. Please provide the contract address.",
+        "metadata": {}
     }
 ]
