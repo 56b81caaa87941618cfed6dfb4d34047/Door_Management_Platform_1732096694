@@ -860,5 +860,20 @@
         "metadata": {
             "component_id": "Footer1732096697"
         }
+    },
+    {
+        "id": "9ed609b4-7b5e-4c2a-ae2c-9d4f10504c80",
+        "timestamp": "2024-12-09T15:15:50.303767Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_H41YSgvtK0ORu0uvHMTTpXQK",
+            "function": {
+                "arguments": "{}",
+                "name": "TransferToSmartContractAssistant"
+            },
+            "type": "function"
+        }
     }
 ]
