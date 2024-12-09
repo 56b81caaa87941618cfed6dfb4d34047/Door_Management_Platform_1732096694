@@ -794,5 +794,13 @@
         "metadata": {
             "component_id": "Header1732096697"
         }
+    },
+    {
+        "id": "d6a921fe-d31f-4106-8b5e-3861f1c5f1c5",
+        "timestamp": "2024-12-09T14:24:48.066633Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Currently, Ethereum mainnet is also not supported for generating frontend components for smart contract interactions within the mini-app. I suggest using the Sepolia testnet for this purpose. How would you like to proceed?",
+        "metadata": {}
     }
 ]
