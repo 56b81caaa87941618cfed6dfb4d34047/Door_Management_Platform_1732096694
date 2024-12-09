@@ -532,5 +532,21 @@
         "source": "smart_contract_assistant",
         "content": "The staking contract has already been deployed to the Holesky network. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "d4d7bca3-297b-4040-9532-18e6e747ccf1",
+        "timestamp": "2024-12-09T13:00:24.335593Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "again",
+        "metadata": {}
+    },
+    {
+        "id": "df8618db-ae17-4b81-b6d8-03c59cd100eb",
+        "timestamp": "2024-12-09T13:00:26.404379Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking contract has already been successfully deployed on the Holesky network. I can't deploy it again. What would you like to do next?",
+        "metadata": {}
     }
 ]
