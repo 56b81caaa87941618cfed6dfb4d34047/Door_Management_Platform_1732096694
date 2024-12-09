@@ -1253,5 +1253,15 @@
         "source": "smart_contract_assistant",
         "content": "I apologize for the confusion earlier. Let's proceed to update the Hero component to interact with the smart contract on the Polygon network. Let's go ahead and update it now.",
         "metadata": {}
+    },
+    {
+        "id": "dc5fe094-cf23-41d7-93d0-ce2cc33ae234",
+        "timestamp": "2024-12-09T15:27:23.224963Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "this is the sc sorry 0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
     }
 ]
