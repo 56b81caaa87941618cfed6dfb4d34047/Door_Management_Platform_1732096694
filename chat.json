@@ -677,5 +677,21 @@
         "source": "smart_contract_assistant",
         "content": "Currently, Polygon is not supported for frontend generation. Please select from supported networks like Sepolia or Holesky. How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "e59d15db-d94d-4f3c-83c8-fee5521f8945",
+        "timestamp": "2024-12-09T14:17:17.239723Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a frontend for the address 0x9f0CdF10a19A936A63857eB755D6bFEce14b4ff9 of HOLESKY",
+        "metadata": {}
+    },
+    {
+        "id": "fedc5710-5a97-48f7-8fcc-a18751370e4e",
+        "timestamp": "2024-12-09T14:17:22.385435Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The Holesky network doesn't support generating frontend components for contract interactions within the mini-app. You can choose another network like Sepolia for this purpose. How would you like to proceed?",
+        "metadata": {}
     }
 ]
