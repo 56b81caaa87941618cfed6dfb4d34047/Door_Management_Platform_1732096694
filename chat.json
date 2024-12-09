@@ -262,5 +262,15 @@
         "source": "tool:DeployAndGenerateFrontend",
         "content": "Deploying the staking contract and generating the frontend component on Sepolia...",
         "metadata": {}
+    },
+    {
+        "id": "da08d915-ca6b-4d21-a3cb-3d8e1e5758fd",
+        "timestamp": "2024-12-09T12:41:54.236779Z",
+        "role": "tool_result",
+        "source": "DeployAndGenerateFrontend",
+        "content": "Success: deployed contract to 0x106e51AEA742b6FC5303457A0faB7eE09B5464B5 on Sepolia (Ethereum testnet)",
+        "metadata": {
+            "tool_call_id": "call_PQsQ0V9BcDPn0wKqmCmGB1iU"
+        }
     }
 ]
