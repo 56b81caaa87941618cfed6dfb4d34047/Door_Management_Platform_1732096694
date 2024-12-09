@@ -834,5 +834,13 @@
         "source": "base_assistant",
         "content": "As Holesky network currently does not support generating frontend components for interactions within the mini-app, I am unable to proceed with your request.\n\nWould you like to switch to Sepolia or any other supported network to generate the frontend?",
         "metadata": {}
+    },
+    {
+        "id": "a41c4f4c-a9c2-496b-b8a5-e3d98db97c7b",
+        "timestamp": "2024-12-09T15:07:53.518300Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "no is MiningContract alonw, my bad",
+        "metadata": {}
     }
 ]
