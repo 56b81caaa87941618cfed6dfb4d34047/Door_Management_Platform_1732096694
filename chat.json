@@ -604,5 +604,20 @@
         "source": "web_client",
         "content": "do it for the 0x106e51AEA742b6FC5303457A0faB7eE09B5464B5 in sepolia then",
         "metadata": {}
+    },
+    {
+        "id": "b31a2b2f-50e1-486d-8da2-05cce9644004",
+        "timestamp": "2024-12-09T14:08:44.910739Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_iuFvniYFgmLjShvyYUhyWbXs",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732096697\",\"sc_address\":\"0x106e51AEA742b6FC5303457A0faB7eE09B5464B5\",\"chain_id\":\"SEPOLIA\",\"change_description\":\"Update the Hero component to interact with the staking contract deployed on Sepolia network.\",\"acknowledgement_message\":\"Updating the component to interact with the staking contract on Sepolia network...\"}",
+                "name": "EditSmartContractFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
