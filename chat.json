@@ -556,5 +556,13 @@
         "source": "web_client",
         "content": "deploy the new version",
         "metadata": {}
+    },
+    {
+        "id": "b5847ad5-583f-448c-aa91-fb0005324ccf",
+        "timestamp": "2024-12-09T13:00:43.297294Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking contract deployed on the Holesky network is the most recent version. How else can I assist you?",
+        "metadata": {}
     }
 ]
