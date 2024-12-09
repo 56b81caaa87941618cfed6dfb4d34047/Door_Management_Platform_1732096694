@@ -361,5 +361,15 @@
         "source": "smart_contract_assistant",
         "content": "It seems Holesky testnet does not support external contract interactions within the mini-app. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "5e3f17ac-28f2-45af-90ba-812d26dac3ec",
+        "timestamp": "2024-12-09T12:51:39.632062Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a frontend for 0xf0c37C7Ba3A42da6Ee06EEbE7A7e4809cfF7974F",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
     }
 ]
