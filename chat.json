@@ -758,5 +758,13 @@
         "source": "web_client",
         "content": "dude, I tell you, you support them",
         "metadata": {}
+    },
+    {
+        "id": "ca29417b-fc7a-4d5e-94a3-84e30345ce24",
+        "timestamp": "2024-12-09T14:23:45.796358Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Unfortunately, my capabilities do not include generating a frontend for contract interactions on the Holesky testnet. Please choose another network like Sepolia. How would you like to proceed?",
+        "metadata": {}
     }
 ]
