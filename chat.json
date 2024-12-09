@@ -645,5 +645,13 @@
         "source": "smart_contract_assistant",
         "content": "The Hero component has been successfully updated to interact with the staking contract on the Sepolia network. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "365df79c-9d33-407d-b08d-b2e9e2acc5b2",
+        "timestamp": "2024-12-09T14:10:12.884853Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a frontend for the address 0x9f0CdF10a19A936A63857eB755D6bFEce14b4ff9 of holesky",
+        "metadata": {}
     }
 ]
