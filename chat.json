@@ -239,5 +239,20 @@
         "source": "web_client",
         "content": "now deploy on sepolia",
         "metadata": {}
+    },
+    {
+        "id": "fb94cf5f-ace5-44cf-9854-7f2bac2f3726",
+        "timestamp": "2024-12-09T12:41:13.428099Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_PQsQ0V9BcDPn0wKqmCmGB1iU",
+            "function": {
+                "arguments": "{\"contract_id\":\"StakingContract1732096698\",\"network\":\"sepolia\",\"frontend_description\":\"A staking interface for users to stake tokens and earn rewards\",\"acknowledgement_message\":\"Deploying the staking contract and generating the frontend component on Sepolia...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
     }
 ]
