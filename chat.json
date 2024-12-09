@@ -802,5 +802,21 @@
         "source": "base_assistant",
         "content": "Currently, Ethereum mainnet is also not supported for generating frontend components for smart contract interactions within the mini-app. I suggest using the Sepolia testnet for this purpose. How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "6d00bac1-8815-46ca-8fb2-953a32901825",
+        "timestamp": "2024-12-09T14:58:01.928793Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I meant 0x51a5a69c3722bbBd1D0f1dDE5b73361aCc162CEB on holesky",
+        "metadata": {}
+    },
+    {
+        "id": "a8af2041-b2f9-44d7-a707-f6afc03d1560",
+        "timestamp": "2024-12-09T14:58:04.127297Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The Holesky network doesn't support generating frontend components for contract interactions within the mini-app. You can choose another network like Sepolia for this purpose. How would you like to proceed?",
+        "metadata": {}
     }
 ]
