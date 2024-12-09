@@ -766,5 +766,23 @@
         "source": "base_assistant",
         "content": "Unfortunately, my capabilities do not include generating a frontend for contract interactions on the Holesky testnet. Please choose another network like Sepolia. How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "a29af391-d4e4-4b3f-b22a-571bd79d2741",
+        "timestamp": "2024-12-09T14:24:24.499336Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "yes, on holesky",
+        "metadata": {
+            "component_id": "Header1732096697"
+        }
+    },
+    {
+        "id": "e91f1f0a-566e-4f16-b691-376c782eeee4",
+        "timestamp": "2024-12-09T14:24:27.122671Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "At this moment, I'm unable to generate frontends for the Holesky network. Please consider using Sepolia or another supported network. How can I assist you further?",
+        "metadata": {}
     }
 ]
