@@ -440,5 +440,15 @@
         "source": "base_assistant",
         "content": "Great! What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "bb67c8c8-37fb-427e-86b1-fe6d85f50e83",
+        "timestamp": "2024-12-09T12:53:59.691771Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a mining smart contract",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
     }
 ]
