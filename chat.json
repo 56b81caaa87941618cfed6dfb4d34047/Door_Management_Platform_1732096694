@@ -190,5 +190,20 @@
         "source": "web_client",
         "content": "deploy it on holesky",
         "metadata": {}
+    },
+    {
+        "id": "fa437456-b6f1-4583-afc0-7f690bcdae6d",
+        "timestamp": "2024-12-09T12:39:04.317985Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_vnGcBauMqkJtJv6bKlqLYXe2",
+            "function": {
+                "arguments": "{\"contract_id\":\"StakingContract1732096698\",\"network\":\"holesky\",\"frontend_description\":\"A staking interface for users to stake tokens and earn rewards\",\"acknowledgement_message\":\"Deploying the staking contract and generating the frontend component...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
     }
 ]
