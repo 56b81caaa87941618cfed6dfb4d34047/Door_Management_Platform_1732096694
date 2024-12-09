@@ -296,5 +296,13 @@
         "source": "smart_contract_assistant",
         "content": "Currently, we support deployments on Holesky and Sepolia. Deploying to Polygon is not available at the moment. How else can I assist you?",
         "metadata": {}
+    },
+    {
+        "id": "0fc42824-cf87-427e-989e-cedf5eb8b544",
+        "timestamp": "2024-12-09T12:48:19.747095Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy a frontend for teh smart contract 0x9f0CdF10a19A936A63857eB755D6bFEce14b4ff9",
+        "metadata": {}
     }
 ]
