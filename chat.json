@@ -734,5 +734,21 @@
         "source": "base_assistant",
         "content": "Would you like to generate the frontend for this contract on the Sepolia network instead?",
         "metadata": {}
+    },
+    {
+        "id": "a9a175a1-c909-4cea-a3ff-ef50f9f13f24",
+        "timestamp": "2024-12-09T14:18:32.750272Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "no, on holesky",
+        "metadata": {}
+    },
+    {
+        "id": "feaab9bc-058a-4519-9a60-bdca2773d779",
+        "timestamp": "2024-12-09T14:18:34.833073Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Currently, Holesky network does not support frontend generation for contract interactions within the mini-app. Please consider using supported networks like Sepolia for this functionality.",
+        "metadata": {}
     }
 ]
