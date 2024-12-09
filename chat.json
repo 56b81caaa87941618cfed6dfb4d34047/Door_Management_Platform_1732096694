@@ -1130,5 +1130,23 @@
         "source": "smart_contract_assistant",
         "content": "The Footer component has been successfully updated to interact with the deposit contract on the Holesky network. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "40980c6e-6b34-439b-b32b-6031a978b9b0",
+        "timestamp": "2024-12-09T15:22:00.081022Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a frontend for 0x9477e53c4b8a053D45cB588A543Ea6870F79d022 on polygon",
+        "metadata": {
+            "component_id": "Hero1732096697"
+        }
+    },
+    {
+        "id": "241875d0-31d4-4cf3-81c4-104b4a67e2b1",
+        "timestamp": "2024-12-09T15:22:02.532416Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "Currently, Polygon is not supported for generating frontend components for smart contract interactions within the mini-app. Please choose another supported network like Sepolia or Holesky. How would you like to proceed?",
+        "metadata": {}
     }
 ]
