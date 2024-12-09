@@ -926,5 +926,15 @@
         "source": "smart_contract_assistant",
         "content": "I've generated the deposit smart contract. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "663a86f2-bb87-46a6-9584-7f2384faa70e",
+        "timestamp": "2024-12-09T15:17:45.292732Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy it on sepolia",
+        "metadata": {
+            "component_id": "Footer1732096697"
+        }
     }
 ]
