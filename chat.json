@@ -288,5 +288,13 @@
         "source": "web_client",
         "content": "now deploy on polygon",
         "metadata": {}
+    },
+    {
+        "id": "f576b888-c76d-4b23-88ce-4a1e48118b1b",
+        "timestamp": "2024-12-09T12:42:03.886798Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "Currently, we support deployments on Holesky and Sepolia. Deploying to Polygon is not available at the moment. How else can I assist you?",
+        "metadata": {}
     }
 ]
