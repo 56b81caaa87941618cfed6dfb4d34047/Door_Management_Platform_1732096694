@@ -182,5 +182,54 @@
         "source": "smart_contract_assistant",
         "content": "I've generated the staking smart contract. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "59a5eb89-637b-4b3d-8212-5f9b7efa1431",
+        "timestamp": "2024-12-09T12:39:02.044225Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy it on holesky",
+        "metadata": {}
+    },
+    {
+        "id": "fa437456-b6f1-4583-afc0-7f690bcdae6d",
+        "timestamp": "2024-12-09T12:39:04.317985Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_vnGcBauMqkJtJv6bKlqLYXe2",
+            "function": {
+                "arguments": "{\"contract_id\":\"StakingContract1732096698\",\"network\":\"holesky\",\"frontend_description\":\"A staking interface for users to stake tokens and earn rewards\",\"acknowledgement_message\":\"Deploying the staking contract and generating the frontend component...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "64676dca-56fe-4c4b-9ee0-ef6b8d4a1e4f",
+        "timestamp": "2024-12-09T12:39:04.408204Z",
+        "role": "assistant",
+        "source": "tool:DeployAndGenerateFrontend",
+        "content": "Deploying the staking contract and generating the frontend component...",
+        "metadata": {}
+    },
+    {
+        "id": "ebd81066-d7fd-4bec-94c8-979ff19cba1b",
+        "timestamp": "2024-12-09T12:40:05.617082Z",
+        "role": "tool_result",
+        "source": "DeployAndGenerateFrontend",
+        "content": "Success: deployed contract to 0x9f0CdF10a19A936A63857eB755D6bFEce14b4ff9 on Holesky (Ethereum testnet)",
+        "metadata": {
+            "tool_call_id": "call_vnGcBauMqkJtJv6bKlqLYXe2"
+        }
+    },
+    {
+        "id": "f8e9c055-ccc5-4721-838c-b28d0b91d6ec",
+        "timestamp": "2024-12-09T12:40:06.910492Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking contract has been successfully deployed on the Holesky network, and the frontend component has been generated. What would you like to do next?",
+        "metadata": {}
     }
 ]
