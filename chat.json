@@ -320,5 +320,20 @@
         "source": "web_client",
         "content": "do it",
         "metadata": {}
+    },
+    {
+        "id": "cd82ca60-9160-4508-bf71-8661fe4394f3",
+        "timestamp": "2024-12-09T12:48:44.090937Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_fhmBJTzvSYYOWZnq3XvXCKMe",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732096697\",\"sc_address\":\"0x9f0CdF10a19A936A63857eB755D6bFEce14b4ff9\",\"chain_id\":\"HOLESKY\",\"change_description\":\"Update the Hero component to interact with the staking contract deployed on Holesky.\",\"acknowledgement_message\":\"Updating the component to interact with the staking contract...\"}",
+                "name": "EditSmartContractFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
