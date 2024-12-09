@@ -596,5 +596,13 @@
         "source": "smart_contract_assistant",
         "content": "The Holesky network doesn't support generating frontend components for contract interactions within the mini-app. You can choose another network like Sepolia for this purpose. How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "0dbf785a-3488-4347-951b-2000fadd6876",
+        "timestamp": "2024-12-09T14:08:41.734986Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "do it for the 0x106e51AEA742b6FC5303457A0faB7eE09B5464B5 in sepolia then",
+        "metadata": {}
     }
 ]
