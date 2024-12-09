@@ -475,5 +475,20 @@
         "metadata": {
             "tool_call_id": "call_o3YOi37WN5MGtF591xm2CFgP"
         }
+    },
+    {
+        "id": "2c22114d-6987-4936-aa03-ea29d6d55c46",
+        "timestamp": "2024-12-09T12:54:06.498038Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_zCenYq5DGIidl1C3n8EcvGMI",
+            "function": {
+                "arguments": "{\"contract_id\":\"MiningContract1732096699\",\"description\":\"A mining smart contract where users can mine tokens based on their contributions and time.\",\"acknowledgement_message\":\"Okay, I'm generating the mining smart contract...\"}",
+                "name": "WriteSmartContract"
+            },
+            "type": "function"
+        }
     }
 ]
